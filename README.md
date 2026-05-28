@@ -22,3 +22,8 @@ Daily fitness goal tracker
 User profile and statistics page
 
 The frontend will communicate with the REST API using HTTP requests.
+
+Roles/tasks breakdown:
+Member 1: Harsimranpreet Kaur 
+- GitHub repository setup
+
