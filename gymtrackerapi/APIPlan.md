@@ -66,7 +66,7 @@ The backend of the GymTracker application will be developed using Express.js and
 
 src
 |
-|-- routes
+| routes
 |-- controllers
 |-- models
 |-- app.ts
