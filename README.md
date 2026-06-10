@@ -18,6 +18,7 @@ The frontend will communicate with the REST API using HTTP requests.
 
 Roles/tasks breakdown:
 
+<<<<<<< HEAD
 Harsimranpreet Kaur
 GitHub repository setup
 Project initialization
@@ -28,3 +29,17 @@ Tracking progress and workflow
 Member 3
 VS Code project setup
 Backend development support (Node.js / Express API)
+=======
+1. Harsimranpreet Kaur  
+- GitHub repository setup  
+- Project initialization  
+
+2. Member 2  
+- Jira board creation and management  
+- Task creation and assignment  
+- Tracking progress and workflow  
+
+3. Member 3  
+- VS Code project setup  
+- Backend development support (Node.js / Express API)  
+ 
