@@ -43,3 +43,21 @@ Backend development support (Node.js / Express API)
 - VS Code project setup  
 - Backend development support (Node.js / Express API)  
  
+MILESTONE #2
+# Team Responsibilities
+
+## Tanishq sharma 
+- Database selection
+- Database design
+- ER Diagram creation
+- Database documentation
+
+## Harsimranpreet kaur 
+- Wireframe design
+- User interface planning
+- Navigation design
+
+## Komalpreet Kaur
+- API route planning
+- Express architecture planning
+- Technical documentation
