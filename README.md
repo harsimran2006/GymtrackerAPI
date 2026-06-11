@@ -4,7 +4,7 @@ Backend REST API for a gym and fitness tracking application.
 GROUP NUMBER - 10 GROUP MEMBERS -
 
 Harsimranpreet Kaur
-Tanishq Sharma
+Tanishq Sharma 
 Komalpreet Kaur
 Project Description
 
