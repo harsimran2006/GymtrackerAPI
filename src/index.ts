@@ -12,6 +12,7 @@ app.use(express.json());
 
 app.use("/users", userRoutes);
 app.use("/workouts", workoutRoutes);
+app.use("/addworkouts", workoutRoutes);
 
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);

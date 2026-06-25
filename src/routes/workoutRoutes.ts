@@ -14,7 +14,7 @@ router.post("/", async (req: Request, res: Response) => {
     const { user_id, exercise, sets, reps, weight } = req.body;
 
     const [result] = await pool.query(
-        "INSERT INTO workouts (user_id, exercise, sets, reps, weight) VALUES (?, ?, ?, ?, ?)",
+        "INSERT INTO workouts (user_id, exercise, sets, reps, weight) VALUES (?, ?, ?, ?)",
         [user_id, exercise, sets, reps, weight]
     );
 
