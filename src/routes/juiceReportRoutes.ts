@@ -1,22 +1,11 @@
-import express from "express";
-import connection from "../db";
+import { Router } from "express";
+import pool from "../db";
 
-const router = express.Router();
+const router = Router();
 
-router.get("/", (req, res) => {
-
-    connection.query(
-        "SELECT * FROM JuiceReports",
-        (err, results) => {
-
-            if (err) {
-                res.status(500).json(err);
-                return;
-            }
-
-            res.json(results);
-        }
-    );
+router.get("/", async (_req, res) => {
+    const [rows] = await pool.query("SELECT * FROM JuiceReports");
+    res.json(rows);
 });
 
 export default router;
