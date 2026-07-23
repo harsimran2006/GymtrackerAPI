@@ -4,7 +4,6 @@ import pool from "../db";
 
 const router = Router();
 
-// GET /juicereports
 // Retrieve all juice reports
 router.get("/", async (_req: Request, res: Response) => {
     try {
@@ -22,7 +21,7 @@ router.get("/", async (_req: Request, res: Response) => {
     }
 });
 
-// PUT /juicereports/:id
+
 // Update an existing juice report
 router.put("/:id", async (req: Request, res: Response) => {
     try {
@@ -77,7 +76,6 @@ router.put("/:id", async (req: Request, res: Response) => {
     }
 });
 
-// DELETE /juicereports/:id
 // Delete an existing juice report
 router.delete("/:id", async (req: Request, res: Response) => {
     try {
