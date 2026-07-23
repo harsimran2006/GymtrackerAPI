@@ -1,10 +1,14 @@
 import mysql from "mysql2/promise";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const pool = mysql.createPool({
-    host: "localhost",
-    user: "root",
-    password: "shabad@21",
-    database: "gymtracker_db",
+    host: process.env.DB_HOST || "localhost",
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_NAME || "express_api_db",
+    port: Number(process.env.DB_PORT) || 3306,
 });
 
 export default pool;
